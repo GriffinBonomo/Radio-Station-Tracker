@@ -3,7 +3,7 @@ version: "3.9"
 services:
   frontend:
     image: node:20-alpine
-    container_name: gamedev-todo-frontend
+    container_name: radio-station-tracker-frontend
     working_dir: /app
     volumes:
       - ./frontend:/app

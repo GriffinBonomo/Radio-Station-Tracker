@@ -32,7 +32,7 @@ const dummyTasks: Task[] = [
 export function Home() {
     return (
         <div>
-            <h1>Gamedev To-Do List</h1>
+            <h1>Radio Station List</h1>
             <TaskList tasks={dummyTasks} />
         </div>
     )
